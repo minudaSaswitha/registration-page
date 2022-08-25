@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    
+    background: #FCFCFC;
+
+
+}
+
+
+
+
+
+
+
+
+
+.register{
+    
+    
+    height: min-content;
+    padding: 20px;
+   
+    background: rgb(255, 255, 255);
+
+    
+   
+}
+#btn{
+    margin-top: 10px;
+    
+}
+.register form{
+    
+}
+
