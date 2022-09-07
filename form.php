@@ -21,7 +21,7 @@ $sql = "INSERT INTO details (school,namee,numberr,birthday) VALUES ('$school','$
 
 
 if ($conn->query($sql) === TRUE) {
-  header("Location: ");
+  header("Location: sidebar.php");
   } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
   }

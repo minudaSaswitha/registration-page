@@ -1,0 +1,72 @@
+body{
+    background: rgb(255, 255, 255);
+    font-family: 'Poppins';
+}
+#side_nav{
+    background: #007BFF;
+    min-width: 250px;
+    max-width: 250px;
+    
+    transition: all 0.5s;
+}
+
+
+
+
+.content{
+    min-height: 100vh;
+    width: 100%;
+    background: #ffffff;
+    
+    
+
+
+}
+.sidebar li.active {
+    background: #fff;
+    border-radius: 8px;
+    transition: 0.1s;
+    
+}
+
+/*.sidebar li a:hover{
+    background: #fff;
+    border-radius: 8px;
+    transition: 0.1s;
+    color: #000;
+
+}*/
+.sidebar li.active a, .sidebar li.active a:hover {
+    color: #000;
+    
+}
+.sidebar li a{
+    color: #F8F9FA;
+}
+@media(max-width: 767px){
+    #side_nav{
+        margin-left: -250px;
+        position: fixed;
+        min-height: 100vh;
+        z-index: 1;
+    }
+    #side_nav.active{
+        margin-left: 0;
+        
+    }
+
+
+}
+i{
+    size: 20px;
+}
+.content #con:not(:first-of-type){
+    display: none;
+}
+#con{
+    margin-top: 50px;
+    
+}
+p{
+    font-weight: 500;
+}
